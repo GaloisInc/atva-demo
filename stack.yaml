@@ -1,0 +1,12 @@
+packages:
+- .
+- deps/dwarf
+- deps/elf-edit
+- deps/flexdis86
+- deps/flexdis86/binary-symbols
+- deps/macaw/base
+- deps/macaw/x86
+- deps/parameterized-utils
+extra-deps:
+resolver: lts-11.17
+allow-newer: true

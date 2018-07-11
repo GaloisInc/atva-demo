@@ -1,0 +1,40 @@
+name: atva-demo
+version: 0.1.0
+author: Galois, Inc.
+maintainer: jhendrix@galois.com
+build-type: Simple
+cabal-version: >= 1.10
+license:       BSD3
+license-file:  LICENSE
+
+executable atva-demo
+  default-language: Haskell2010
+  build-depends:
+    base >= 4,
+--    ansi-wl-pprint,
+--    bv,
+    bytestring,
+    containers,
+--    directory,
+    elf-edit,
+--    filepath,
+--    flexdis86 >= 0.1.1,
+    lens,
+--    llvm-pretty,
+--    located-base,
+    macaw-base,
+    macaw-x86,
+--    mtl,
+    parameterized-utils,
+--    pretty,
+--    process,
+--    text,
+--    transformers,
+--    utf8-string,
+    vector
+
+  hs-source-dirs: demo_src
+  main-is: Main.hs
+
+  ghc-options: -Wall
+  ghc-prof-options: -O2 -fprof-auto-top

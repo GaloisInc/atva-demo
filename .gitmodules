@@ -1,0 +1,15 @@
+[submodule "deps/macaw"]
+	path = deps/macaw
+	url = git@github.com:GaloisInc/macaw.git
+[submodule "deps/elf-edit"]
+	path = deps/elf-edit
+	url = git@github.com:GaloisInc/elf-edit.git
+[submodule "deps/parameterized-utils"]
+	path = deps/parameterized-utils
+	url = git@github.com:GaloisInc/parameterized-utils.git
+[submodule "deps/dwarf"]
+	path = deps/dwarf
+	url = git@github.com:GaloisInc/dwarf.git
+[submodule "deps/flexdis86"]
+	path = deps/flexdis86
+	url = git@github.com:GaloisInc/flexdis86.git
